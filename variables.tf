@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "launch-wizard-1"
+  default     = "myterraformsg"
 }
 
 variable "tag_name" {
